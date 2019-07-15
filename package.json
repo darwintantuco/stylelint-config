@@ -6,6 +6,7 @@
   "author": "darwin christopher tantuco <darwinxciii@yahoo.com>",
   "main": "index.js",
   "license": "MIT",
+  "prettier": "@dcrtantuco/prettier-config",
   "dependencies": {
     "stylelint-8-point-grid": "^0.2.2",
     "stylelint-config-standard": "^18.3.0",
@@ -13,5 +14,9 @@
   },
   "peerDependencies": {
     "stylelint": "^10"
+  },
+  "devDependencies": {
+    "@dcrtantuco/prettier-config": "^1.0.0",
+    "prettier": "^1.18.2"
   }
 }

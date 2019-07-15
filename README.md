@@ -5,10 +5,13 @@ My personal stylelint config
 ## Installation
 
 ### npm
+
 ```
 npm install stylelint @dcrtantuco/stylelint-config --save-dev
 ```
+
 ### yarn
+
 ```
 yarn add stylelint @dcrtantuco/stylelint-config --dev
 ```
@@ -16,6 +19,7 @@ yarn add stylelint @dcrtantuco/stylelint-config --dev
 ## Usage
 
 Update `.stylelintrc`
+
 ```js
 // .stylelintrc
 {
@@ -26,9 +30,10 @@ Update `.stylelintrc`
 ```
 
 Or add stylelint config in `package.json`
+
 ```json
 {
-  "stylelint": { "extends": [ "@dcrtantuco/stylelint-config" ] },
+  "stylelint": { "extends": ["@dcrtantuco/stylelint-config"] },
   "scripts": {
     "lint:css": "stylelint 'css/**/*.{css,scss}'"
   }

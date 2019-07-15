@@ -119,6 +119,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@dcrtantuco/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dcrtantuco/prettier-config/-/prettier-config-1.0.0.tgz#30f67345956455036f2f2f465d646fe2d5ddd21d"
+  integrity sha512-gWPnpDWtWvCEXT1EGuCycRduviJWoAExVyuuK5jY5pCUrcuwZ24qFIsF5FAocqtVJ7D8sQeILooGmwhmKF6k9A==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1748,6 +1753,11 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+prettier@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
+  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
 
 punycode@^2.1.0:
   version "2.1.1"
