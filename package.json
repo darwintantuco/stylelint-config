@@ -21,6 +21,7 @@
     "stylelint": "^10"
   },
   "devDependencies": {
-    "@dcrtantuco/prettier-config": "^1.0.1"
+    "@dcrtantuco/prettier-config": "^1.0.1",
+    "prettier": "^1.18.2"
   }
 }
