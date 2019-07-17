@@ -1,6 +1,13 @@
 # stylelint-config
+[![Build Status](https://travis-ci.org/dcrtantuco/stylelint-config.svg?branch=master)](https://travis-ci.org/dcrtantuco/stylelint-config)
 
 My personal stylelint config
+
+## Included Plugins
+- stylelint-config-standard
+- stylelint-rscss/config
+- stylelint-8-point-grid
+- stylelint-a11y
 
 ## Installation
 
