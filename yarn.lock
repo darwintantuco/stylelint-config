@@ -119,6 +119,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@dcrtantuco/prettier-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dcrtantuco/prettier-config/-/prettier-config-1.0.1.tgz#01405495f157866dce72adccdd3dfe972b16d307"
+  integrity sha512-HELeHSOVb2c2prgD0VlrD04kp4hgZED3MagbFITNIHkBTv0JwnuVHHowdQRPoWbD5ynC0Bp51nTD42dIOMKwnQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2126,6 +2131,11 @@ stylelint-8-point-grid@^0.2.2:
   integrity sha512-3gg+7zS73cI2j5zcugnZX6H+/Hv8HI1r5LfASwI5UWId7vewjGAatbsJO8noJ2JjMCcFRXzi2fNhaQi6WOZoTw==
   dependencies:
     stylelint "^10.1.0"
+
+stylelint-a11y@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/stylelint-a11y/-/stylelint-a11y-1.2.1.tgz#fe5ba2ac2ea62fe26b148d583c2b4d65e6351466"
+  integrity sha512-yfH6ibVkfAlAt7J5ExrzpBPFCSWDTxBL9svdFZ6BfGF5hRmFgTS03x4r/rBAAaNDpgKE32CQz5qcLbgOLzuxfA==
 
 stylelint-config-recommended@^2.2.0:
   version "2.2.0"
