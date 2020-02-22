@@ -1,12 +1,12 @@
 {
-  "name": "@dcrtantuco/stylelint-config",
-  "version": "1.0.1",
+  "name": "@darwintantuco/stylelint-config",
+  "version": "1.0.0",
   "description": "My personal stylelint config",
-  "repository": "git@github.com:dcrtantuco/stylelint-config.git",
-  "author": "darwin christopher tantuco <darwinxciii@yahoo.com>",
+  "repository": "git@github.com:darwintantuco/stylelint-config.git",
+  "author": "Darwin Christopher Tantuco <dcrtantuco@gmail.com>",
   "main": "index.js",
   "license": "MIT",
-  "prettier": "@dcrtantuco/prettier-config",
+  "prettier": "@darwintantuco/prettier-config",
   "scripts": {
     "prettier:check": "prettier --list-different '**/*.{css,scss}' '**/*.{js,jsx,ts,tsx}'",
     "prettier:fix": "prettier --write '**/*.{css,scss}' '**/*.{js,jsx,ts,tsx}'"
@@ -21,7 +21,7 @@
     "stylelint": "^10"
   },
   "devDependencies": {
-    "@dcrtantuco/prettier-config": "^1.0.1",
+    "@darwintantuco/prettier-config": "^1.0.0",
     "prettier": "^1.18.2"
   }
 }
