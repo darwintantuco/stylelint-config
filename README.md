@@ -1,9 +1,12 @@
 # stylelint-config
+
 [![Build Status](https://travis-ci.org/darwintantuco/stylelint-config.svg?branch=master)](https://travis-ci.org/darwintantuco/stylelint-config)
 
 My personal stylelint config
 
-## Included Plugins
+## Dependencies
+
+- stylelint
 - stylelint-config-standard
 - stylelint-rscss/config
 - stylelint-8-point-grid
@@ -14,13 +17,13 @@ My personal stylelint config
 ### npm
 
 ```
-npm install stylelint @darwintantuco/stylelint-config --save-dev
+npm install @darwintantuco/stylelint-config --save-dev
 ```
 
 ### yarn
 
 ```
-yarn add stylelint @darwintantuco/stylelint-config --dev
+yarn add @darwintantuco/stylelint-config --dev
 ```
 
 ## Usage
