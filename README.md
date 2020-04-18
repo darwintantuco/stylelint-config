@@ -1,6 +1,6 @@
 # stylelint-config
 
-[![Build Status](https://travis-ci.org/darwintantuco/stylelint-config.svg?branch=master)](https://travis-ci.org/darwintantuco/stylelint-config)
+![Node.js CI](https://github.com/darwintantuco/stylelint-config/workflows/Node.js%20CI/badge.svg)
 
 My personal stylelint config
 
