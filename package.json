@@ -1,6 +1,6 @@
 {
   "name": "@darwintantuco/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My personal stylelint config",
   "repository": "git@github.com:darwintantuco/stylelint-config.git",
   "author": "Darwin Christopher Tantuco <dcrtantuco@gmail.com>",
@@ -11,6 +11,11 @@
     "prettier:check": "prettier --list-different '**/*.{js,json,md}'",
     "prettier:fix": "prettier --write '**/*.{js,json,md}'"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn prettier:check"
+    }
+  },
   "dependencies": {
     "stylelint": "^13.3.2",
     "stylelint-8-point-grid": "^0.2.6",
@@ -19,6 +24,7 @@
     "stylelint-rscss": "^0.4.0"
   },
   "devDependencies": {
-    "@darwintantuco/prettier-config": "^1.0.1"
+    "@darwintantuco/prettier-config": "^1.0.1",
+    "husky": "^4.2.5"
   }
 }
